@@ -22,3 +22,5 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 Route::get('/list', [FlightController::class, 'list']);
 
 Route::get('/findFlight', [FlightController::class, 'findFlight']);
+
+Route::post('/bookticket', [FlightController::class, 'bookticket']);
