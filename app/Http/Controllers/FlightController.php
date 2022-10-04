@@ -39,5 +39,7 @@ class FlightController extends Controller
         return response()->json($flights);
     }
 
-    //return tickets where id 
+    public function user()
+    {
+    }
 }
